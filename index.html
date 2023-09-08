@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+<style>
+    h2 {
+        font-size: 170%;
+        color: #800000;
+    }
+
+    h3 {
+        font-size: 130%;
+        font-style: italic;
+    }
+
+    a:hover {
+        font-style: italic;
+    }
+
+</style>
+
+
 <head>
     <meta charset="utf-8">
 	<title>San Joaquin Valley Town Hall</title>
@@ -8,16 +27,21 @@
 </head>
 
 <body>
-    <img height="80" src="images/town_hall_logo.gif" alt="Town hall Logo">
 
+    <div style="display: flex; margin: 0; padding: 0;">
+        <div style="margin-right: 30px; padding-top: 24px;">
+            <img height="80" src="images/town_hall_logo.gif" alt="Town hall Logo">
+        </div>
+        <div>
+            <h2 style="color: #865568;">San Joaquin Valley Town Hall</h2>
+            <h3>Celebrating our <em style="text-shadow: 2px 2px 2px #865568;">75</em><sup style="text-shadow: 2px 2px 2px #865568">th</sup> Year</h3>
+        </div>
+    </div>
 
-    <header>
-        <h2>San Joaquin Valley Town Hall</h2>
-        <h3>Celebrating our 75<sup>th</sup> Year</h3>
-    </header>
+    
 
     <main>
-        <h2>Our Mission</h2>
+        <h2 style="color: #865568">Our Mission</h2>
         <p>San Joaquin Valley Town Hall is a non-profit organization that is run by an all-volunteer board of directors. Our
             mission is to bring nationally and internationally renowned, thought-provoking speakers who inform, educate, and
             entertain our audience! As one of our members told us:
@@ -26,7 +50,7 @@
             “Each year I give a ticket package to each of our family members. I think of it as the gift of knowledge...and
             that is priceless.”
         </p>
-        <h2>Our Ticket Packages</h2>
+        <h2 style="color: #865568">Our Ticket Packages</h2>
         <ol>
             <li>Season Package: $95</li>
             <li>Patron Package: $200</li>
@@ -41,13 +65,21 @@
             <img src="images/brancaccio75.jpg" alt="David Brancaccio">
         </div>
         <div style="margin-bottom: 10px;">
-            <a href="speakers/sorkin.html">Sorkin</a>
+            <strong><p style="margin: 0;">November</p></strong>
+            <a href="speakers/sorkin.html">Andrew Ross Sorkin</a>
         </div>
         <div>
             <img src="images/sorkin75.jpg" alt="Sorkin">
         </div>
+        <div style="margin-bottom: 10px;">
+            <strong><p style="margin: 0;">January</p></strong>
+            <a href="speakers/chua.html">Amy Chua</a>
+        </div>
+        <div>
+            <img src="images/chua75.jpg" alt="Sorkin">
+        </div>
     </main>
-    <footer>
+    <footer style="text-align: center;">
         <p>© 2023, Edgaras Uchinas</p>
     </footer>
 </body>
